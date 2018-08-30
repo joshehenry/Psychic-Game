@@ -1,0 +1,13 @@
+body {
+
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #333300 100%);
+    font-size: 24px; 
+}
+
+.jumbotron {
+
+    text-align: center;
+    font-size: 40px; 
+    background: purple;
+}
