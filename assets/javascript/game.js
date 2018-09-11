@@ -12,10 +12,11 @@ window.addEventListener("key", checkKeyPress);
 
 function checkKeyPress(key) {
     
+    console.log(key);
     
      {
     
-        if (key.keyCode == "106") {
+        if (key.key == "j") {
 
             wins++;
     
@@ -25,7 +26,7 @@ function checkKeyPress(key) {
     }
 
     
-        if (key.keyCode == "111") {
+        if (key.key == "o") {
 
             wins++;
     
@@ -33,7 +34,7 @@ function checkKeyPress(key) {
             document.getElementById("Guesses").innerText = ("Guesses So Far: " + totalguesses++);
         }
     
-        if (key.keyCode == "115") {
+        if (key.key == "s") {
 
             wins++;
     
@@ -41,7 +42,7 @@ function checkKeyPress(key) {
             document.getElementById("Guesses").innerText = ("Guesses So Far: " + totalguesses++);
         }
     
-        if (key.keyCode == "104") {
+        if (key.key == "h") {
             
             wins++;
     
@@ -51,7 +52,7 @@ function checkKeyPress(key) {
     
         else if
         
-         (key.keyCode !== "106", "111", "115", "104") { 
+         (key.key !== "j", "o", "s", "h") { 
 
             losses++;
             
